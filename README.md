@@ -12,3 +12,9 @@ The project involves the development of a smart pallet placing container system 
 3. The pallet container scans the RFID tag (RFID tag > RFID module > TCP > raspberry pi > SCION AS server)and measures the weight using the load cell (load cell > raspberry pi > SCION AS server ). This information is sent to the client on request.
    A SCION server AS is configured to send this info over the SCION network at the raspberry pi end.
 4. At the client end, A SCION client AS is configured which generates request to the SCION AS server at the raspberry pi end. The response    is displayed on a remote dashboard specifying the article detais : name, unit weight, number of pieces etc.
+
+![GitHub Logo](/images/blockdiagram.jpg)
+![GitHub Logo](/images/pallet_1.jpg)
+![GitHub Logo](/images/pallet_2.jpg)
+![GitHub Logo](/images/pallet_3.jpg)
+![GitHub Logo](/images/loadcelldashboard.jpg)
